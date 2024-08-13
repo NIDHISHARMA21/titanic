@@ -1,11 +1,15 @@
 **Titanic Survival Prediction**
+
 Overview
+
 This project involves predicting the survival of passengers aboard the Titanic using various features from the dataset. The goal is to build a predictive model that can accurately determine whether a passenger survived based on their characteristics.
 
 Dataset
+
 The dataset contains the following columns:
 
 PassengerId: Unique identifier for each passenger.
+
 Survived: Whether the passenger survived (0 = No, 1 = Yes).
 Pclass: Ticket class (1, 2, or 3).
 Name: Name of the passenger.
