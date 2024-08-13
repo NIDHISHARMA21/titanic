@@ -1,4 +1,4 @@
-Titanic Survival Prediction
+**Titanic Survival Prediction**
 Overview
 This project involves predicting the survival of passengers aboard the Titanic using various features from the dataset. The goal is to build a predictive model that can accurately determine whether a passenger survived based on their characteristics.
 
