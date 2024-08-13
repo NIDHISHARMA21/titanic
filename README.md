@@ -62,22 +62,27 @@ Fare: Fill the single missing value with the median fare.
 Cabin: Drop the column due to a high percentage of missing values.
 Variance: Check for columns with zero variance.
 Duplicates: Verify and remove any duplicate rows.
+
 **5. Feature Engineering**
 Family Size: Create a new feature combining SibSp and Parch to represent the family size.
 Title Extraction: Extract and standardize titles from passenger names.
 Drop Unnecessary Columns: Remove columns that are not needed for the analysis.
+
 **6. Visualization**
 Barplot for Embarked vs. Survival: Visualize survival rates based on the port of embarkation.
 Pie Chart for Sex Distribution: Show the distribution of genders among passengers.
 Barplot for Title vs. Survival: Analyze survival rates based on titles.
 Histograms and Boxplots: Examine distributions and detect outliers in Age and Fare.
 Countplots and Pie Charts: Show survival counts and survival rates.
+
 **7. Model Building**
 Prepare Data: Split the data into training and testing sets.
 Train Logistic Regression Model: Fit a logistic regression model to predict survival.
 Evaluate Model: Use accuracy, classification report, and confusion matrix to assess model performance.
+
 **8. Model Improvement and Validation**
 Random Forest Classifier: Use GridSearchCV to tune hyperparameters and find the best model.
 Feature Importance: Analyze and visualize the importance of features in the best model.
+
 **9. Model Saving**
 Save the trained model using pickle for future use.
